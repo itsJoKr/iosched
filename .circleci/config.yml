@@ -20,7 +20,7 @@ jobs:
           key: jars-{{ checksum "build.gradle" }}-{{ checksum "app/build.gradle" }}
       - run:
           name: Run Android Lint
-          command: ./gradlew lintDebug -PpreDexEnable=false -PdisablePreDex --console=plain
+          command: ./gradlew lint -PpreDexEnable=false -PdisablePreDex --console=plain
       - run:
           name: Run Unit Tests
           command: ./gradlew testDebugUnitTest -PpreDexEnable=false -PdisablePreDex --console=plain
