@@ -10,6 +10,8 @@ primary:
     - install-missing-android-tools@2.2.0:
         inputs:
         - gradlew_path: "$PROJECT_LOCATION/gradlew"
+    - git::https://github.com/misaelmt/bitrise-step-detekt@master:
+        title: Detekt
     - android-lint@0.9.4:
         inputs:
         - project_location: "$PROJECT_LOCATION"
