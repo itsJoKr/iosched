@@ -1,7 +1,7 @@
 Google I/O Android App
 ======================
 
-Google I/O is a developer conference held each year with three days of deep
+ Google I/O is a developer conference held each year with three days of deep
 technical content featuring technical sessions and hundreds of demonstrations
 from developers showcasing their technologies.
 
